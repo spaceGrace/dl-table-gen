@@ -35,8 +35,8 @@ const App = () => {
       <Form onFinish={handleFinish} form={form}>
         <RowForm formfactor="column" />
         <RowForm formfactor="row" />
-        <TablesBlock copy={addOneRow} remove={removeRow} />
       </Form>
+      <TablesBlock copy={addOneRow} remove={removeRow} />
     </Layout>
   );
 }
